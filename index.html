@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>signalfeed-backup</title>
+</head>
+<body>
+<h1>signalfeed-backup</h1>
+<p>signalfeed-backup is a personal backup tool. It is used by one person, the owner of this site, to back up their own server.</p>
+<p>Every night it uses <a href="https://restic.net/">restic</a> and <a href="https://rclone.org/">rclone</a> to create encrypted backup files in the owner's own Google Drive, and to read and tidy up those same files later.</p>
+<p>It asks Google only for the <code>drive.file</code> permission, so it can reach only the files it created itself, never the rest of the Drive. It is not offered to anyone else.</p>
+<p><a href="privacy.html">Privacy policy</a></p>
+</body>
+</html>
